@@ -1,0 +1,70 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment files - CRITICAL: Never commit these!
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# Cache and logs
+*.log
+/logs/
+/cache/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Configuration files that may contain sensitive information
+dbcon.php
+config/database.local.php
+
+# Upload directories (if they contain user uploads)
+uploads/
+files/
+
+# Database dumps and backups
+*.sql
+*.dump
+
+# Cache files
+*.cache
+
+# Session files
+sessions/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+
+# Security files
+*.key
+*.pem
+*.p12
+*.crt
+
+# Backup files
+*.bak
+*.backup
+*.o
+*.so
+
+# Backup files
+*.bak
+*.backup
+*.old 
